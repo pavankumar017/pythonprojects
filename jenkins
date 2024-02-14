@@ -1,0 +1,14 @@
+pipeline{
+agent none{
+stage("Build"){
+steps {
+  echo "Build done"
+}
+}
+stage("tes"){
+steps {
+echo "Test rub "
+}
+}
+}
+}
