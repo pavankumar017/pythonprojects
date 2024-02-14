@@ -1,14 +1,17 @@
 pipeline{
 agent any
-stages{
-stage("Build"){
+stages
+{
+stage("Build")
+{
 steps {
   echo "Build done"
 }
 }
-stage("tes"){
+stage("tes")
+{
 steps {
-echo "Test rub "
+echo "Test rub"
 }
 }
 }
