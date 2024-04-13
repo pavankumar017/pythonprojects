@@ -1,0 +1,21 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver import ChromeOptions , Chrome
+import requests as request
+import time
+
+opts = webdriver.ChromeOptions()
+opts.add_experimental_option("detach", True)
+driver = Chrome(options=opts)
+driver.get("https://www.hyrtutorials.com/p/window-handles-practice.html")
+driver.maximize_window()
+
+time.sleep(3)
+driver.find_element(By.ID, "newWindowBtn").click()
+
+
+all_windows = driver.window_handles
+
+driver.switch_to.window(all_windows[1])
+
+driver.find_element(By.ID, "firstName").send_keys("Pavan")

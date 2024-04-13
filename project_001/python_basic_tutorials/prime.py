@@ -1,20 +1,20 @@
 
 
 
-# def is_prime(num):
-#     flag = False
-#     for x in range(2, num):
-#         if (num % x) == 0:
-#             flag = True
-#             break
+def is_prime(num):
+    flag = False
+    for x in range(2, num):
+        if (num % x) == 0:
+            flag = True
+            break
 
-#     if flag:
-#         print("Its not a prime")
-#     else:
-#         print("its a prime")
+    if flag:
+        print("Its not a prime")
+    else:
+        print("its a prime")
         
 
-# is_prime(18)
+is_prime(4)
 
 
 

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.10.0 on darwin)" generated="20240305 13:54:14.272" rpa="false" schemaversion="2">
+<suite id="s1" name="Pythonprojects" source="/Users/pavankumar/VSCODE/pythonprojects">
+<suite id="s1-s1" name="Project 001" source="/Users/pavankumar/VSCODE/pythonprojects/project_001">
+<suite id="s1-s1-s1" name="Robotframework" source="/Users/pavankumar/VSCODE/pythonprojects/project_001/robotframework">
+<suite id="s1-s1-s1-s1" name="Testcases" source="/Users/pavankumar/VSCODE/pythonprojects/project_001/robotframework/testcases">
+<suite id="s1-s1-s1-s1-s1" name="Tc1" source="/Users/pavankumar/VSCODE/pythonprojects/project_001/robotframework/testcases/tc1.robot">
+<test id="s1-s1-s1-s1-s1-t1" name="TC1">
+<kw name="Log" library="BuiltIn">
+<arg>message=asasda</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20240305 13:54:14.342" level="INFO">asasda</msg>
+<status status="PASS" starttime="20240305 13:54:14.342" endtime="20240305 13:54:14.342"/>
+</kw>
+<status status="PASS" starttime="20240305 13:54:14.341" endtime="20240305 13:54:14.342"/>
+</test>
+<status status="PASS" starttime="20240305 13:54:14.285" endtime="20240305 13:54:14.342"/>
+</suite>
+<status status="PASS" starttime="20240305 13:54:14.284" endtime="20240305 13:54:14.343"/>
+</suite>
+<status status="PASS" starttime="20240305 13:54:14.283" endtime="20240305 13:54:14.343"/>
+</suite>
+<status status="PASS" starttime="20240305 13:54:14.282" endtime="20240305 13:54:14.344"/>
+</suite>
+<status status="PASS" starttime="20240305 13:54:14.273" endtime="20240305 13:54:14.345"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Pythonprojects">Pythonprojects</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Project 001">Pythonprojects.Project 001</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="Robotframework">Pythonprojects.Project 001.Robotframework</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1-s1" name="Testcases">Pythonprojects.Project 001.Robotframework.Testcases</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1-s1-s1" name="Tc1">Pythonprojects.Project 001.Robotframework.Testcases.Tc1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
