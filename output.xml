@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.12 on darwin)" generated="20240410 11:41:57.106" rpa="false" schemaversion="3">
+<suite id="s1" name="Sample" source="/Users/pavankumar/VSCODE/pythonprojects/project_001/robotframework/testcases/sample.robot">
+<test id="s1-t1" name="Forlooptest" line="6">
+<for flavor="IN">
+<var>${i}</var>
+<msg timestamp="20240410 11:41:57.125" level="FAIL">FOR loop has no loop values.</msg>
+<status status="FAIL" starttime="20240410 11:41:57.125" endtime="20240410 11:41:57.126"/>
+</for>
+<status status="FAIL" starttime="20240410 11:41:57.124" endtime="20240410 11:41:57.126">FOR loop has no loop values.</status>
+</test>
+<status status="FAIL" starttime="20240410 11:41:57.110" endtime="20240410 11:41:57.127"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Sample">Sample</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20240410 11:41:57.123" level="ERROR">Error in file '/Users/pavankumar/VSCODE/pythonprojects/project_001/robotframework/testcases/sample.robot' on line 2: Importing library 'ExcelLibrary' failed: ModuleNotFoundError: No module named 'ExcelLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Users/pavankumar/.vscode/extensions/robocorp.robotframework-lsp-1.11.0/src/robotframework_debug_adapter
+  /Users/pavankumar/VSCODE/pythonprojects
+  /Users/pavankumar/.vscode/extensions/robocorp.robotframework-lsp-1.11.0/src
+  /Users/pavankumar/.vscode/extensions/robocorp.robotframework-lsp-1.11.0/src/robotframework_ls/vendored
+  /Users/Shared/robocorp/ht/fec0afa_b1f3c24_992639ca/lib/python310.zip
+  /Users/Shared/robocorp/ht/fec0afa_b1f3c24_992639ca/lib/python3.10
+  /Users/Shared/robocorp/ht/fec0afa_b1f3c24_992639ca/lib/python3.10/lib-dynload
+  /Users/Shared/robocorp/ht/fec0afa_b1f3c24_992639ca/lib/python3.10/site-packages</msg>
+</errors>
+</robot>

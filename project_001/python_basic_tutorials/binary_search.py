@@ -1,10 +1,11 @@
-arr =  [12,20,36,45,51,67,87]
-n = 45
+arr1 =  [20,12,36,45,51,67,87]
+n = 67
+arr1.sort()
 
 
 def search(arr, n):
     low = 0
-    high = len(arr)-1
+    high = len(arr)+1
     mid = 0 
     while (low <high):
         mid = (low + high) // 2
@@ -19,6 +20,6 @@ def search(arr, n):
         elif (arr[mid] > n):
             high = mid
 
-a = search([12,20,36,45,51,67], 51)
+a = search([12,20,36,45,51,67], 67)
 
 print(f'{"the index is "} {a}')
