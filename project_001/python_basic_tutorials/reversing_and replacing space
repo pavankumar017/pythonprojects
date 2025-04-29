@@ -1,0 +1,26 @@
+# Input : “abc de”
+# Output: edc ba
+# Explanation : Reversing the characters without spaces “edcba” and inserting space at original place”edc ba”
+
+str = "abc de ad"
+
+# if its a spce append it into a list and add 
+#join and revrese 
+# add space in the listed place
+spcce_list  = []
+for i in range(len(str)):
+    print(i)
+    if str[i] == " ":
+        spcce_list.append(i)
+
+print(spcce_list)
+
+str1 =  str[::-1].replace(" " , "")
+print(str1)
+str1= list(str1)
+for j in spcce_list:
+    str1.insert(j, " ")
+str1="".join(str1)
+    
+print(str1)
+    
