@@ -17,9 +17,14 @@ print(spcce_list)
 
 str1 =  str[::-1].replace(" " , "")
 print(str1)
+#convert it into a list to add space at the position 
 str1= list(str1)
+
+
 for j in spcce_list:
     str1.insert(j, " ")
+
+#cannot do type casting from list to char hence adding the koun
 str1="".join(str1)
     
 print(str1)
